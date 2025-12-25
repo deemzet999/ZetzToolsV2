@@ -474,4 +474,64 @@ class ZetzT00lzV2:
                     input(f"\n{Fore.YELLOW}[Press Enter to continue]")
                 
                 elif command == "ddos" and len(parts) > 1:
-          
+                    target = parts[1]
+                    port = int(parts[2]) if len(parts) > 2 else 80
+                    threads = int(parts[3]) if len(parts) > 3 else 100
+                    duration = int(parts[4]) if len(parts) > 4 else 30
+                    self.ddos_attack(target, port, threads, duration)
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "sql" and len(parts) > 1:
+                    self.sql_injection_scanner(parts[1])
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "crack" and len(parts) > 1:
+                    hash_value = parts[1]
+                    hash_type = parts[2] if len(parts) > 2 else 'md5'
+                    self.password_cracker(hash_value, hash_type)
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "xss" and len(parts) > 1:
+                    self.xss_scanner(parts[1])
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                elif command == "whois" and len(parts) > 1:
+                    self.whois_lookup(parts[1])
+                    input(f"\n{Fore.YELLOW}[Press Enter to continue]")
+                
+                else:
+                    print(f"{Fore.RED}[✗] Command tidak dikenal. Ketik 'help' untuk bantuan")
+                    time.sleep(1)
+                    
+            except KeyboardInterrupt:
+                print(f"\n{Fore.YELLOW}[!] Gunakan 'exit' untuk keluar")
+                time.sleep(1)
+            except Exception as e:
+                print(f"{Fore.RED}[✗] Error: {e}")
+                time.sleep(2)
+
+def main():
+    """Main function"""
+    try:
+        print(f"{Fore.YELLOW}[*] Memulai ZetzT00lz V2...")
+        
+        # Cek dependencies
+        try:
+            import colorama
+            import requests
+        except ImportError:
+            print(f"{Fore.RED}[!] Installing dependencies...")
+            os.system('pip install colorama requests')
+            print(f"{Fore.GREEN}[✓] Dependencies installed!")
+            time.sleep(1)
+        
+        tool = ZetzT00lzV2()
+        tool.run()
+        
+    except KeyboardInterrupt:
+        print(f"\n{Fore.YELLOW}[!] Program dihentikan")
+    except Exception as e:
+        print(f"{Fore.RED}[✗] Fatal Error: {e}")
+
+if __name__ == "__main__":
+    main()
